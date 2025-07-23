@@ -12,5 +12,3 @@ agent = Agent(
 
 result = agent.run_sync('Where does "hello world" come from?')  
 print(result.output)
-
-model = GoogleModel('gemini-1.5-flash', provider=provider)
