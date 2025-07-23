@@ -1,0 +1,9 @@
+[project]
+name = "data_academy_agentic_day"
+version = "0.1.0"
+description = "agentic day for the data academy"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pydantic-ai-slim[gemini]",
+]
